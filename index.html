@@ -5,153 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="HandheldFriendly" content="true">
 <title>Aditya Kumar</title>
-
-<style>
-body{
-  width:fit-content;
-  background-color:grey;
-  
-}
-div 
-{
-  width: fit-content;
-  height: 120px;
-  background:grey;
-
-
-}
-
-
-.dropbtn {
-  background-color: #3498DB;
-  color: black;
-  padding: 16px;
-  width: 300px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-.dropbtn:hover, .dropbtn:focus {
-  background-color:#3498D8;
-}
-
-.dropdown {
-  position: absolute;
-  left: 1100px;
-  top: 1px;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #00CED1;
-  min-width: 300px;
-  overflow: auto;
-  box-shadow: 0px 8px 2px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 20px 16px;
-  text-decoration: all;
-  display: block;
-}
-
-.dropdown a:hover {background-color:#00CED1}
-
-.show {display: block;}
-
-.dropbtn1 {
-  background-color: #3498DB;
-  color: black;
-  padding: 16px;
-  width: 300px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-.dropbtn1:hover, .dropbtn1:focus {
-  background-color:#3498D8;
-}
-
-.dropdown1{
-  position: absolute;
-  left: 797px;
-  top: 1px;
-  display: inline-block;
-}
-
-.dropdown-content1 {
-  display: none;
-  position: absolute;
-  background-color: #00CED1;
-  min-width: 300px;
-  min-height: 150px;
-  overflow: auto;
-  box-shadow: 0px 8px 2px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content1 a {
-  color: black;
-  padding: 15px 16px;
-  text-decoration: all;
-  display: block;
-}
-
-.dropdown1 a:hover {background-color:#00CED1}
-
-.show1 {display: block;}
-
-
-a{
-  color:balck;
-  font-size: 28x;
-  font-family:verdana;
-  
-
-  
-
-}
-
-
-h1{color:black;
-  font-size: 43px;
-  height: 500px;
-
-   
-   }
-.tab {
- margin-left: 12.5em;
-
-}
-
-
-.ontainer{
-  width: 1500px;
-  height: 145%;
-  background:grey;
-}
-.ontainer2{
-  width: 1500px;
-  height: 165%;
-  background:grey;
-}
-
-
-.container{
-  width: 100%;
-  height: 550%;
-  background-color:#00CED1;
-}
-
-
-  
-</style>
+<link href="ad.css" rel="stylesheet" type="text/css">
 
 
 </head>
@@ -174,46 +28,6 @@ h1{color:black;
 </div>
 
 </div>
-<script>
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>
-<script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction1() {
-  document.getElementById("myDropdown1").classList.toggle("show1");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn1')) {
-    var dropdowns1 = document.getElementsByClassName("dropdown-content1");
-    var i;
-    for (i = 0; i < dropdowns1.length; i++) {
-      var openDropdown1 = dropdowns1[i];
-      if (openDropdown1.classList.contains('show1')) {
-        openDropdown1.classList.remove('show1');
-      }
-    }
-  }
-}
-</script>
 
 <div>
   <div class ="ontainer">
@@ -268,6 +82,7 @@ window.onclick = function(event) {
     </ul>
   </article>  
 </div>
+<script src="javascript.js"></script>
 
 </body>
 </html>
