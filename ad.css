@@ -12,8 +12,10 @@ div
 
 }
 
+.dropbtn {  
+  a:hover {background-color:blue}
+  a:active {background-color:grey;}
 
-.dropbtn {
   background-color: #3498DB;
   color: black;
   padding: 16px;
@@ -24,7 +26,7 @@ div
 }
 
 .dropbtn:hover, .dropbtn:focus {
-  background-color:#3498D8;
+  background-color:#00CED1;
 }
 
 .dropdown {
@@ -35,6 +37,7 @@ div
 }
 
 .dropdown-content {
+
   display: none;
   position: absolute;
   background-color: #00CED1;
@@ -51,12 +54,19 @@ div
   display: block;
 }
 
-.dropdown a:hover {background-color:#00CED1}
+
+
+
+
 
 .show {display: block;}
+a:visited{background-color:blue;} 
+
 
 .dropbtn1 {
-  background-color: #3498DB;
+  a:hover {background-color:blue}
+  a:active {background-color:grey;}
+  /*background-color:grey;information ke neche ka*/
   color: black;
   padding: 16px;
   width: 300px;
@@ -66,7 +76,8 @@ div
 }
 
 .dropbtn1:hover, .dropbtn1:focus {
-  background-color:#3498D8;
+  background-color:#3498DB;/*information ke upar ka color*/
+ 
 }
 
 .dropdown1{
@@ -79,7 +90,7 @@ div
 .dropdown-content1 {
   display: none;
   position: absolute;
-  background-color: #00CED1;
+  background-color:#00CED1;/*acivement ke neche ka color*/
   min-width: 300px;
   min-height: 150px;
   overflow: auto;
@@ -94,7 +105,7 @@ div
   display: block;
 }
 
-.dropdown1 a:hover {background-color:#00CED1}
+.dropdown1 a:hover {background-color:grey;}/*achievement ke upar ka color*/
 
 .show1 {display: block;}
 
@@ -131,6 +142,7 @@ h1{color:black;
   width: 1500px;
   height: 165%;
   background:grey;
+
 }
 
 
