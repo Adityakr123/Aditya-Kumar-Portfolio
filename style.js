@@ -1,7 +1,7 @@
 var a= document.getElementById('adi');
 a.className="fadeinimg";
 var counter = 0;
-var myimages=["photo.JPG","bnp.jpg","git.png","hacker.png","r.jpeg"];
+var myimages=["a.JPG","bnp.jpg","git.png","hacker.png","r.jpeg"];
     // setInterval(function(){
 setInterval(function next()
 {
