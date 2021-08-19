@@ -66,6 +66,7 @@ body{
 
     }
 
+
 }
 @media screen and (max-width: 988px){
   .marginbottomnav{
@@ -74,6 +75,10 @@ body{
 .marginbottomna{
   margin-bottom: 2%;
 }
+.marginbottomn{
+  margin-bottom: 4.5%;
+}
+
 
 }
 
