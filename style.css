@@ -23,6 +23,9 @@ body{
     .topfb{
       margin-left: 26%;
     }
+    .imgheight{
+      height:fit-content;
+    }
 
 
 
@@ -50,6 +53,9 @@ body{
     }
     .topfb{
       margin-left: 41%;
+    }
+    .imgheight{
+      height:fit-content;
     }
 
 
