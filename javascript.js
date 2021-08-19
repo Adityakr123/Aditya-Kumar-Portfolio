@@ -9,7 +9,7 @@ setInterval(function next()
       a.className="fadeinimg";
       // a.className="container";
       if(counter > 4){
-        counter = 1;
+        counter = 0;
         
        
         a.src=myimages[counter];
