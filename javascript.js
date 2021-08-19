@@ -1,6 +1,6 @@
 var a= document.getElementById('adi');
 var counter = 0;
-var myimages=["photo.JPG","git.jpg","bnp.jpg","hacker.jpg","r.jpg"];
+var myimages=["photo.jpg","git.jpg","bnp.jpg","hacker.jpg","r.jpg"];
 setInterval(function next()
 {
      
