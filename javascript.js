@@ -1,38 +1,82 @@
-
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
+var a= document.getElementById('adi');
+var counter = 0;
+var myimages=["photo.JPG","git.jpg","bnp.jpg","hacker.jpg","r.jpg"];
+setInterval(function next()
+{
+     
+      counter++;
+      // var a = new Array(5);
+      a.className="fadeinimg";
+      // a.className="container";
+      if(counter > 4){
+        counter = 1;
+        
+       
+        a.src=myimages[counter];
+        // document.getElementById('aditya').innerHTML="ADITYA";
+        
       }
-    }
-  }
-}
-
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction1() {
-  document.getElementById("myDropdown1").classList.toggle("show1");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn1')) {
-    var dropdowns1 = document.getElementsByClassName("dropdown-content1");
-    var i;
-    for (i = 0; i < dropdowns1.length; i++) {
-      var openDropdown1 = dropdowns1[i];
-      if (openDropdown1.classList.contains('show1')) {
-        openDropdown1.classList.remove('show1');
+      else{
+        
+        
+        a.src=myimages[counter];
+        // document.getElementById('aditya').innerHTML="ADITYA";
       }
-    }
-  }
+      
+}, 5000);
+function next()
+{
+
+      counter++;
+      
+      if(counter > 4){
+        counter = 0;
+        a.className="fadeinimg";
+        // a.className="container";
+        a.src=myimages[counter];
+        // document.getElementById('aditya').innerHTML="ADITYA";
+        // var myimage=["photo.JPG","git.png","bnp.jpg","hacker.png","r.jpeg"];
+        // var b= document.getElementById('aditya');
+        // b.className="fadeinimg";
+        // b.src=myimage[counter];
+        //  document.getElementById('aditya').innerHTML=myimage[counter];
+      }
+      else{
+        a.className="fadeinimg";
+        // a.className="container";
+        a.src=myimages[counter];
+        // document.getElementById('aditya').innerHTML="ADITYA";
+        // var myimage=["photo.JPG","git.png","bnp.jpg","hacker.png","r.jpeg"];
+        // var b= document.getElementById('aditya');
+        // b.className="fadeinimg";
+        // b.src=myimage[counter];
+
+        // document.getElementById('aditya')
+        // b.
+        // document.getElementById('aditya').innerHTML=myimage[counter];
+      }
+       
+
+
+
+}
+function before()
+{
+
+      counter--;
+      
+      if(counter > 4){
+        counter = 0;
+        a.src=myimages[counter];
+        // document.getElementById('aditya').innerHTML="ADITYA";
+      }
+      else if(counter<0){
+        counter = 4;
+        a.src=myimages[counter];
+        // document.getElementById('aditya').innerHTML="ADITYA";
+      }
+      else{
+        a.src=myimages[counter];
+
+      }
 }
