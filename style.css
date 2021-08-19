@@ -28,7 +28,6 @@ body{
     }
 
 
-
 }
 @media screen and (min-width: 767px) {
     .card{
@@ -59,17 +58,25 @@ body{
     }
 
 
+
 }
 @media screen and (min-width: 989px) {
     .rightmarginnav{
         margin-right: 50px;
 
     }
-    .marginbottomnav{
-        margin-bottom: 3%;
-    }
 
 }
+@media screen and (max-width: 988px){
+  .marginbottomnav{
+    margin-bottom: 3%;
+}
+.marginbottomna{
+  margin-bottom: 2%;
+}
+
+}
+
 
 .fadeinimg {
 
